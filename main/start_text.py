@@ -18,7 +18,12 @@ async def start_cmd(bot, msg):
 
 @Client.on_callback_query(filters.regex("start"))
 async def start(bot, msg, cb=True):   
-    txt=f"hai {msg.from_user.mention} i am simple rename bot with personal usage.\nthis bot is made by <b><a href=https://github.com/MrMKN>MrMKN</a></b>"                                     
+    txt=f"Hᴀɪ  {msg.from_user.mention} I Aᴍ Fɪʟᴇ Rᴇɴᴀᴍᴇ Bᴏᴛ Wɪᴛʜ Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ & Cᴀᴘᴛɪᴏɴ Sᴜᴘᴘᴏʀᴛ.
+Aɴᴅ Rᴇɴᴀᴍᴇ Wɪᴛʜᴏᴜᴛ Dᴏᴡɴʟᴏᴀᴅ 💯 Fᴜʟʟʏ Wᴏʀᴋ Oɴ Tɢ Dᴄ Sᴏ Rᴇɴᴀᴍɪɴɢ
+Sᴘᴇᴇᴅ Is Dᴇᴘᴇɴᴅɪɴɢ Oɴ Yᴏᴜʀ Fɪʟᴇ Dᴄ_Iᴅ 
+
+Pʟᴇᴀsᴇ Sʜᴀʀᴇ Tʜɪs Bᴏᴛ Tᴏ Yᴏᴜʀ Fʀɪᴇɴᴅs 💝.
+.\nthis bot is made by <b><a href=https://github.com/MrMKN>MrMKN</a></b>"                                     
     button= [[
         InlineKeyboardButton("🤖 Bot Updates", url="https://t.me/AJ_TVSHOWS")
         ],[
