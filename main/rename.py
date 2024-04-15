@@ -25,7 +25,7 @@ async def rename_file(bot, msg):
     else:
         cap = f"{new_name}\n\n💽 size : {filesize}"
 
-    # this idea's back end is MKN brain 🧠
+    # this idea's back end is AJ brain 🧠
 
     dir = os.listdir(DOWNLOAD_LOCATION)
     if len(dir) == 0:
