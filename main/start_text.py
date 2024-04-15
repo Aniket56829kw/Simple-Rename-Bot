@@ -7,9 +7,9 @@ from config import ADMIN
 async def start_cmd(bot, msg):
     txt="This is personal use bot 🙏. Do you want your own bot? 👇 Click the source code to deploy"
     btn = InlineKeyboardMarkup([[
-        InlineKeyboardButton("⭕️ Bot Owner", url="https://t.me/Shivamx007")
+        InlineKeyboardButton("⭕️ Bot Owner", url="https://t.me/MrAniket_YT")
         ],[
-        InlineKeyboardButton("🔰 Updates channel", url="https://t.me/AJ_TVSHOWS")
+        InlineKeyboardButton("🔰 Updates channel", url="https://t.me/AJ_TVSERIAL")
     ]])
     if msg.from_user.id != ADMIN:
         return await msg.reply_text(text=txt, reply_markup=btn, disable_web_page_preview = True)
@@ -23,12 +23,12 @@ Aɴᴅ Rᴇɴᴀᴍᴇ Wɪᴛʜᴏᴜᴛ Dᴏᴡɴʟᴏᴀᴅ 💯 Fᴜʟʟʏ W�
 Sᴘᴇᴇᴅ Is Dᴇᴘᴇɴᴅɪɴɢ Oɴ Yᴏᴜʀ Fɪʟᴇ Dᴄ_Iᴅ 
 
 Pʟᴇᴀsᴇ Sʜᴀʀᴇ Tʜɪs Bᴏᴛ Tᴏ Yᴏᴜʀ Fʀɪᴇɴᴅs 💝.
-.\nthis bot is made by <b><a href=https://t.me/Shivamx007</a></b>"                                     
+.\nthis bot is made by <b><a href=https://t.me/MrAniket_YT</a></b>"                                     
     button= [[
         InlineKeyboardButton("🤖 Bot Updates", url="https://t.me/AJ_TVSHOWS")
         ],[
         InlineKeyboardButton("ℹ️ Help", callback_data="help"),
-        InlineKeyboardButton("📡 About", callback_data="about") 
+        InlineKeyboardButton("❗️ About", callback_data="about") 
     ]]  
     if cb:
         await msg.message.edit(text=txt, reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview = True, parse_mode=enums.ParseMode.HTML)
