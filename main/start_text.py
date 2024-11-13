@@ -7,9 +7,9 @@ from config import ADMIN
 async def start_cmd(bot, msg):
     txt="This is personal use bot 🙏. Do you want your own bot? 👇 Click the source code to deploy"
     btn = InlineKeyboardMarkup([[
-        InlineKeyboardButton("⭕️ Bot Owner", url="https://t.me/MrAniket_YT")
+        InlineKeyboardButton("⭕️ Bot Owner", url="https://t.me/ICT_FANS")
         ],[
-        InlineKeyboardButton("🔰 Updates channel", url="https://t.me/AJ_TVSERIAL")
+        InlineKeyboardButton("🔰 Updates channel", url="https://t.me/Aniket_Movies_hub")
     ]])
     if msg.from_user.id != ADMIN:
         return await msg.reply_text(text=txt, reply_markup=btn, disable_web_page_preview = True)
@@ -23,9 +23,9 @@ Aɴᴅ Rᴇɴᴀᴍᴇ Wɪᴛʜᴏᴜᴛ Dᴏᴡɴʟᴏᴀᴅ 💯 Fᴜʟʟʏ W�
 Sᴘᴇᴇᴅ Is Dᴇᴘᴇɴᴅɪɴɢ Oɴ Yᴏᴜʀ Fɪʟᴇ Dᴄ_Iᴅ 
 
 Pʟᴇᴀsᴇ Sʜᴀʀᴇ Tʜɪs Bᴏᴛ Tᴏ Yᴏᴜʀ Fʀɪᴇɴᴅs 💝.
-.\nthis bot is made by <b><a href=https://t.me/MrAniket_YT</a></b>"                                     
+.\nthis bot is made by <b><a href=https://t.me/ICT_FANS</a></b>"                                     
     button= [[
-        InlineKeyboardButton("🤖 Bot Updates", url="https://t.me/AJ_TVSHOWS")
+        InlineKeyboardButton("🤖 Bot Updates", url="https://t.me/ANIKET_MOVIES_HUB")
         ],[
         InlineKeyboardButton("ℹ️ Help", callback_data="help"),
         InlineKeyboardButton("❗️ About", callback_data="about") 
@@ -52,9 +52,9 @@ async def help(bot, msg):
 @Client.on_callback_query(filters.regex("about"))
 async def about(bot, msg):
     me=await bot.get_me()
-    Master=f"<a href=https://t.me/Mo_Tech_YT>MoTech</a> & <a href=https://t.me/venombotupdates>MhdRzn</a>"  
+    Master=f"<a href=https://t.me/ICT_FANS>ANIKET</a> & <a href=https://t.me/ANIKET_MOVIES_HUB>MOVIE</a>"  
     Source="<a href=https://github.com/MrMKN/Simple-Rename-Bot>Click Here</a>"
-    txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://github.com/MrMKN>MrMKN</a>\nBot Updates: <a href=https://t.me/mkn_bots_updates>Mᴋɴ Bᴏᴛᴢ™</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
+    txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://t.me/ICT_FANS>ANIKET</a>\nBot Updates: <a href=https://t.me/ANIKET_MOVIES_HUB>ANIKET MOVIES™</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
     button= [[        
         InlineKeyboardButton("🚫 Close", callback_data="del"),
         InlineKeyboardButton("⬅️ Back", callback_data="start") 
