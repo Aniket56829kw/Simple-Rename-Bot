@@ -27,4 +27,4 @@ class Bot(Client):
 
 
 bot = Bot()
-bot.run()
+bot.run("python3 bot.py")
