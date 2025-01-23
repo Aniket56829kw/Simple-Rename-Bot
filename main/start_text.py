@@ -23,12 +23,13 @@ Aɴᴅ Rᴇɴᴀᴍᴇ Wɪᴛʜᴏᴜᴛ Dᴏᴡɴʟᴏᴀᴅ 💯 Fᴜʟʟʏ W�
 Sᴘᴇᴇᴅ Is Dᴇᴘᴇɴᴅɪɴɢ Oɴ Yᴏᴜʀ Fɪʟᴇ Dᴄ_Iᴅ 
 
 Pʟᴇᴀsᴇ Sʜᴀʀᴇ Tʜɪs Bᴏᴛ Tᴏ Yᴏᴜʀ Fʀɪᴇɴᴅs 💝.
-.\nthis bot is made by <b><a href=https://t.me/ICT_FANS</a></b>"                                     
+.\nthis bot is made by <b><a href=https://t.me/ICT_FANS</a>ꪖꪀ𝓲𝘬ꫀ𝓽</b>"                                     
     button= [[
         InlineKeyboardButton("🤖 Bot Updates", url="https://t.me/ANIKET_MOVIES_HUB")
         ],[
         InlineKeyboardButton("ℹ️ Help", callback_data="help"),
-        InlineKeyboardButton("❗️ About", callback_data="about") 
+        InlineKeyboardButton("❗️ About", callback_data="about")
+        InlineKeyboardButton("Plans ⚡", callback_data="ꪖꪀ𝓲𝘬ꫀ𝓽 ρꪶꪖꪀ𝘴 ꪑꪗ ꪀꪖꪑꫀ")
     ]]  
     if cb:
         await msg.message.edit(text=txt, reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview = True, parse_mode=enums.ParseMode.HTML)
